@@ -1,0 +1,16 @@
+{
+  "name": "intentive-server",
+  "version": "1.0.0",
+  "description": "Backend server for the Intentive full‑stack application",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  }
+}

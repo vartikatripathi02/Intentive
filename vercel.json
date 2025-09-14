@@ -1,0 +1,8 @@
+{
+  // Rewrite all routes to the serverless function. This allows the Express
+  // app to handle API endpoints and serve the React client through the
+  // single serverless function defined in api/index.js.
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api" }
+  ]
+}
